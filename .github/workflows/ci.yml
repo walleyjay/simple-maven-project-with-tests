@@ -4,10 +4,10 @@ name: first CI pipeline project - simple maven
 
 on:
     push:
-        branches: [ master ]
+        branches: [ master, main ]
 
     pull_request:
-        branches: [ feature-emmanuel, master ]
+        branches: [ feature-emmanuel, master, main ]
 
 jobs:
     build-job:
